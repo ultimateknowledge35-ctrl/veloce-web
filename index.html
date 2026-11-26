@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Veloce Web — Web Design &amp; Development</title>
   <meta name="description" content="Veloce Web designs and builds fast, high-converting websites that turn visitors into paying clients—launched in 48 hours.">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F172A'/%3E%3Cpath d='M8.5 9.5h3.8l3.7 10.2 3.7-10.2h3.8L17.8 23h-3.6L8.5 9.5Z' fill='%233B82F6'/%3E%3C/svg%3E">
+  <meta property="og:title" content="Veloce Web — Web Design &amp; Development">
+  <meta property="og:description" content="Websites that turn visitors into paying clients—designed, built, and launched in 48 hours.">
+  <meta property="og:image" content="assets/logo-full.jpg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -19,13 +23,10 @@
     <div class="container header-inner">
       <a href="#top" class="brand" aria-label="Veloce Web Home">
         <span class="brand-mark" aria-hidden="true">
-          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="32" height="32" rx="8" fill="#1E293B" stroke="rgba(59,130,246,0.45)" stroke-width="1.2"/>
-            <path d="M8.5 9.5H12.2L16 19.6L19.8 9.5H23.5L17.8 23H14.2L8.5 9.5Z" fill="#3B82F6"/>
-          </svg>
+          <img src="assets/logo-mark.png" alt="" width="36" height="36" class="brand-logo-img">
         </span>
         <span class="brand-text">
-          <span class="brand-name">Veloce Web</span>
+          <span class="brand-name">Veloce <span class="brand-name-accent">Web</span></span>
           <span class="brand-sub">Web Design &amp; Development</span>
         </span>
       </a>
@@ -314,7 +315,8 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="footer-name">Veloce Web</span>
+        <img src="assets/logo-mark.png" alt="" width="28" height="28" loading="lazy" class="footer-logo-img" aria-hidden="true">
+        <span class="footer-name">Veloce <span class="brand-name-accent">Web</span></span>
         <span class="footer-sep" aria-hidden="true">&mdash;</span>
         <span class="footer-role">Web Design &amp; Development</span>
       </div>
@@ -331,7 +333,10 @@
   <dialog id="mobile-nav-dialog" class="mobile-drawer" closedby="any" aria-labelledby="mobile-nav-title">
     <div class="mobile-drawer-inner">
       <div class="mobile-drawer-header">
-        <h1 id="mobile-nav-title" class="mobile-drawer-title">Veloce Web</h1>
+        <div class="mobile-drawer-brand">
+          <img src="assets/logo-mark.png" alt="" width="30" height="30" class="drawer-logo-img" aria-hidden="true">
+          <h1 id="mobile-nav-title" class="mobile-drawer-title">Veloce <span class="brand-name-accent">Web</span></h1>
+        </div>
         <button type="button" class="icon-close-btn" id="close-mobile-nav" aria-label="Close navigation menu">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
             <line x1="18" y1="6" x2="6" y2="18"/>
